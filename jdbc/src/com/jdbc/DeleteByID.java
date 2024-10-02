@@ -18,6 +18,8 @@ public class DeleteByID {
 		Connection conn=DriverManager.getConnection(url, user, password);
         if(conn!=null)
         {
+        	
+        	
         	System.out.println("Connected");
         }
   String query="delete from  student  where id= ?";
